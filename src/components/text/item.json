@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_navigation_items",
+  "info": {
+    "displayName": "Column Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

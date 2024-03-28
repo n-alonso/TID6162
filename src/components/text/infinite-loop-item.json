@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_text_infinite_loop_items",
+  "info": {
+    "displayName": "Infinite Loop Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "string",
+      "required": true,
+      "maxLength": 5
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

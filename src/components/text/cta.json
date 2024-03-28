@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_text_ctas",
+  "info": {
+    "displayName": "cta"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

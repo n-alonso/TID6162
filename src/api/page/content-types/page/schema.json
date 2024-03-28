@@ -1,0 +1,125 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "key": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "listing_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "meta_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
+    },
+    "dynamic_content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "media-text.hero",
+        "text.cta",
+        "media.media",
+        "media-text.banner",
+        "media-text.featured-products",
+        "media-text.media-text",
+        "media-text.twins",
+        "media-text.page-header",
+        "text.triplet-text",
+        "media-text.editorial-block",
+        "media-text.editorial-header",
+        "media-text.contacts",
+        "text.editorial-story",
+        "media-text.timeline",
+        "media-text.read-more-editorial",
+        "text.infinite-loop",
+        "text.statement",
+        "media-text.us-ps",
+        "media-text.employee-quote",
+        "media-text.gallery",
+        "text.text-and-cta",
+        "media-text.team-teaser",
+        "media-text.teaser",
+        "media-text.employee-reviews",
+        "media-text.narrow-editorial-block",
+        "text.text",
+        "text.quote",
+        "media.side-by-side"
+      ]
+    }
+  }
+}

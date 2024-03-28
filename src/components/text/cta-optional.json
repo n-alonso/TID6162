@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_text_cta_optionals",
+  "info": {
+    "displayName": "cta optional",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

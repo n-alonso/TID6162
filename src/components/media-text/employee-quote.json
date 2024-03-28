@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_media_text_employee_quotes",
+  "info": {
+    "displayName": "Employee Quote",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "image_left": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "media.media"
+    },
+    "image_right": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "media.media"
+    }
+  }
+}

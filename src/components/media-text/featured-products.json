@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_media_text_featured_products",
+  "info": {
+    "displayName": "Featured products",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "products": {
+      "type": "customField",
+      "options": {
+        "fields": [
+          "handle",
+          "image",
+          "title",
+          "images",
+          "published_at",
+          "id"
+        ]
+      },
+      "customField": "plugin::shopify-fields.multiple-products"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta",
+      "required": true
+    },
+    "headline": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

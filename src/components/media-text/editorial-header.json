@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_media_text_editorial_headers",
+  "info": {
+    "displayName": "Editorial Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "subheadline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.media",
+      "required": true
+    }
+  }
+}

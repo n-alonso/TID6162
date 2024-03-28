@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_image_text_heroes",
+  "info": {
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-text",
+      "required": true
+    },
+    "full_height": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

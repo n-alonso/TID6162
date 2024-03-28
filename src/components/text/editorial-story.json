@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_text_editorial_stories",
+  "info": {
+    "displayName": "Editorial Story"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor",
+      "required": true
+    },
+    "description_left": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "description_right": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

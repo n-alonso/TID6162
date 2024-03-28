@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_text_triplet_columns",
+  "info": {
+    "displayName": "Triplet column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "contact": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact.contact"
+    }
+  }
+}

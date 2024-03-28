@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_media_text_galleries",
+  "info": {
+    "displayName": "Gallery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "gallery_media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.media",
+      "required": true
+    },
+    "gallery_headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "gallery_description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

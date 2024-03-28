@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_media_text_read_more_editorials",
+  "info": {
+    "displayName": "Read More Editorial"
+  },
+  "options": {},
+  "attributes": {
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}

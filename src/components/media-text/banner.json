@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_image_text_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-text",
+      "required": true
+    }
+  }
+}

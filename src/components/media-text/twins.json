@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_media_text_twins",
+  "info": {
+    "displayName": "Twins",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-text",
+      "required": true
+    },
+    "right": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-text",
+      "required": true
+    }
+  }
+}

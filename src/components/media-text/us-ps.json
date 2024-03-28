@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_media_text_us_ps",
+  "info": {
+    "displayName": "USPs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "usp_items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media-text.usp-item"
+    },
+    "usp_headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

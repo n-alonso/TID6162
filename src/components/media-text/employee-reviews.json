@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_media_text_employee_reviews",
+  "info": {
+    "displayName": "Employee Reviews",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "badges": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.badge",
+      "required": true
+    },
+    "employee_reviews_cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta"
+    }
+  }
+}

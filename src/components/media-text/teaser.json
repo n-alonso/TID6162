@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_media_text_teasers",
+  "info": {
+    "displayName": "Teaser"
+  },
+  "options": {},
+  "attributes": {
+    "teaser_content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-description"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta",
+      "required": true
+    }
+  }
+}

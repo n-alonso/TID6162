@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_media_text_narrow_editorial_blocks",
+  "info": {
+    "displayName": "Narrow Editorial Block"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-description",
+      "required": true
+    },
+    "text_block_position": {
+      "type": "enumeration",
+      "enum": ["left", "right"],
+      "required": true
+    }
+  }
+}

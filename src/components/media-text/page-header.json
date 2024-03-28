@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_media_text_page_headers",
+  "info": {
+    "displayName": "Page Header"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "media-text.media-description"
+    }
+  }
+}

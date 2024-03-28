@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_text_triplet_texts",
+  "info": {
+    "displayName": "Triplet Text"
+  },
+  "options": {},
+  "attributes": {
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.triplet-column",
+      "required": true
+    }
+  }
+}

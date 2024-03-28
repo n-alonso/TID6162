@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_media_text_team_teasers",
+  "info": {
+    "displayName": "Team Teaser",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "team_headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "team_description": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta",
+      "required": true
+    },
+    "contacts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::contact.contact"
+    }
+  }
+}

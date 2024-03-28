@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "events_overviews",
+  "info": {
+    "singularName": "events-overview",
+    "pluralName": "events-overviews",
+    "displayName": "Events overview"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "media-text.hero",
+      "required": true
+    }
+  }
+}

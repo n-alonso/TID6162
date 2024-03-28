@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_media_text_media_texts",
+  "info": {
+    "displayName": "Media text",
+    "description": "Media and Text reused across multiple components"
+  },
+  "options": {},
+  "attributes": {
+    "headline": {
+      "type": "customField",
+      "required": true,
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "subheadline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.cta",
+      "required": true
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media.media",
+      "required": true
+    }
+  }
+}

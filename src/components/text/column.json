@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_navigation_columns",
+  "info": {
+    "displayName": "Column",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "text.item"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "text.item",
+      "required": true
+    }
+  }
+}

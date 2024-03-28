@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_media_text_timelines",
+  "info": {
+    "displayName": "Timeline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "year_position": {
+      "type": "enumeration",
+      "enum": ["top", "centre", "bottom"],
+      "required": true
+    },
+    "timeline_text_position": {
+      "type": "enumeration",
+      "enum": ["left", "right"],
+      "required": true
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "media-text.media-description",
+      "required": true
+    }
+  }
+}

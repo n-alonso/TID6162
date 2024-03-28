@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_text_statements",
+  "info": {
+    "displayName": "Statement",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "statement_headline": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "text_slide": {
+      "type": "string"
+    }
+  }
+}

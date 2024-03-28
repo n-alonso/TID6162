@@ -1,0 +1,42 @@
+{
+  "name": "gizeh-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "resetPassword": "npm run strapi admin:reset-user-password",
+    "prepare": "husky install",
+    "tsc": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.10",
+    "@strapi/plugin-documentation": "4.13.7",
+    "@strapi/plugin-graphql": "4.13.7",
+    "@strapi/plugin-i18n": "4.13.7",
+    "@strapi/plugin-users-permissions": "4.13.7",
+    "@strapi/strapi": "4.13.7",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "4d6656e7-5bbf-4ce6-888b-30bdb336553e"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

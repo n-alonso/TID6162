@@ -20,8 +20,6 @@ export default [
             "https://market-assets.strapi.io",
             "https://dl.airtable.com",
             "https://cdn.shopify.com",
-            "https://*.strapiapp.com",
-            // "https://*.digitaloceanspaces.com",
           ],
         },
       },

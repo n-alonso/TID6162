@@ -937,9 +937,9 @@
     "@lezer/highlight" "^1.0.0"
 
 "@codemirror/view@^6.0.0", "@codemirror/view@^6.17.0", "@codemirror/view@^6.23.0":
-  version "6.26.0"
-  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.26.0.tgz#ab5a85aa8ebfb953cb5534e07d0a3751f9a3869a"
-  integrity sha512-nSSmzONpqsNzshPOxiKhK203R6BvABepugAe34QfQDbNDslyjkqBuKgrK5ZBvqNXpfxz5iLrlGTmEfhbQyH46A==
+  version "6.26.1"
+  resolved "https://registry.yarnpkg.com/@codemirror/view/-/view-6.26.1.tgz#ab99cf35c576bc65f5804ab49db730b65c3fad3f"
+  integrity sha512-wLw0t3R9AwOSQThdZ5Onw8QQtem5asE7+bPlnzc57eubPqiuJKIzwjMZ+C42vQett+iva+J8VgFV4RYWDBh5FA==
   dependencies:
     "@codemirror/state" "^6.4.0"
     style-mod "^4.1.0"
@@ -5068,9 +5068,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.668:
-  version "1.4.719"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.719.tgz#22a94ce7a5150511ba88e900836039e159efe22c"
-  integrity sha512-FbWy2Q2YgdFzkFUW/W5jBjE9dj+804+98E4Pup78JBPnbdb3pv6IneY2JCPKdeKLh3AOKHQeYf+KwLr7mxGh6Q==
+  version "1.4.721"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.721.tgz#a9ee55ba7e54d9ecbcc19825116f3752e7d60ef2"
+  integrity sha512-k1x2r6foI8iJOp+1qTxbbrrWMsOiHkzGBYwYigaq+apO1FSqtn44KTo3Sy69qt7CRr7149zTcsDvH7MUKsOuIQ==
 
 elliptic@^6.5.4:
   version "6.5.5"
@@ -5923,7 +5923,7 @@ gopd@^1.0.1:
   dependencies:
     get-intrinsic "^1.1.3"
 
-got@^11.8.2:
+got@^11.1.4, got@^11.8.2:
   version "11.8.6"
   resolved "https://registry.yarnpkg.com/got/-/got-11.8.6.tgz#276e827ead8772eddbcfc97170590b841823233a"
   integrity sha512-6tfZ91bOr7bOXnK7PRDCGBLa1H4U080YHNaAQ2KsMGlLEzRbk44nsZF2E1IeRc3vtJHPVbKCYgdFbaGO2ljd8g==
@@ -7378,7 +7378,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha512-HDWXG8isMntAyRF5vZ7xKuEvOhT4AhlRt/3czTSjvGUxjYCBVRQY48ViDHyfYz9VIoBkW4TMGQNapx+l3RUwdA==
 
-lodash@4.17.21, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
+lodash@4.17.21, lodash@^4.17.10, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -9622,6 +9622,16 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
+shopify-api-node@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/shopify-api-node/-/shopify-api-node-3.11.1.tgz#800fe2065119e5efe7093cba258fb27562b9ab64"
+  integrity sha512-hs3hv7GPCpG7VTphXWPPjHyXhimxpDiCVULVHrRCu9QwED/ZmIueFGw0P0pzTmyBnZkw5QNSWywz8iIq8uaSyg==
+  dependencies:
+    got "^11.1.4"
+    lodash "^4.17.10"
+    qs "^6.5.2"
+    stopcock "^1.0.0"
+
 side-channel@^1.0.4, side-channel@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.6.tgz#abd25fb7cd24baf45466406b1096b7831c9215f2"
@@ -9848,6 +9858,18 @@ std-env@^3.0.1:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.7.0.tgz#c9f7386ced6ecf13360b6c6c55b8aaa4ef7481d2"
   integrity sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==
+
+stopcock@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/stopcock/-/stopcock-1.1.0.tgz#e0c875d98b819c0baa0a0edf3bcba2d7dc643175"
+  integrity sha512-SNTAH55X9Ra5uE1JIxiPT3WwZiNMTcdCup+7qWOULNVUqiqi62qctNJ+x1R4znNudtkyu8LGc7Ok6Ldt+8N5iQ==
+
+strapi-plugin-shopify-fields@^4.0.0-beta4:
+  version "4.0.0-beta4"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-shopify-fields/-/strapi-plugin-shopify-fields-4.0.0-beta4.tgz#8b618e7fa4d743b2a11cad5182c861a0a38293a4"
+  integrity sha512-6QLAqKOJUvGJbVHPyW0b8gT6WOo96cpjay59+V1PgY0Be9ZLoUgyJcGnH1vjbcPMwrm3PZ2xkpTndbGIvFf5iw==
+  dependencies:
+    shopify-api-node "3.11.1"
 
 stream-chain@2.2.5, stream-chain@^2.2.5:
   version "2.2.5"

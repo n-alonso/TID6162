@@ -21,7 +21,7 @@ export default [
             "https://dl.airtable.com",
             "https://cdn.shopify.com",
             "https://*.strapiapp.com",
-            "https://*.digitaloceanspaces.com",
+            // "https://*.digitaloceanspaces.com",
           ],
         },
       },

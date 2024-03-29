@@ -21,7 +21,7 @@ export default [
             "https://dl.airtable.com",
             "https://cdn.shopify.com",
             "https://gorgeous-happiness-30df26310a.media.strapiapp.com",
-            "https://gorgeous-happiness-30df26310a.strapiapp.com/assets/",
+            "https://gorgeous-happiness-30df26310a.strapiapp.com",
           ],
         },
       },

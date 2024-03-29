@@ -20,6 +20,7 @@ export default [
             "https://market-assets.strapi.io",
             "https://dl.airtable.com",
             "https://cdn.shopify.com",
+            "https://gorgeous-happiness-30df26310a.media.strapiapp.com",
           ],
         },
       },
